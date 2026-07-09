@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kasume Group | Rental House</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,18 +18,18 @@
     <!-- Header / Navbar -->
     <header class="navbar">
         <div class="container">
-            <a href="#" class="logo" style="display: flex; align-items: center; gap: 20px;">
-                <img src="assets/images/logo.png" alt="Logo Kasume" style="height: 48px; width: auto; display: block;">
-                <div style="display: flex; flex-direction: column; gap: 2px; text-align: left; line-height: 1;">
-                    <span>Kasume<span class="text-accent">Grup</span></span>
-                    <span style="font-size: 11px; font-weight: 500; letter-spacing: 2px; color: var(--text-secondary); text-transform: uppercase;">Rental House</span>
+            <a href="#" class="logo" style="display: flex; align-items: center; gap: 16px; text-decoration: none;">
+                <img src="assets/images/logo.png" alt="Kasume Group" style="height: 60px; width: auto; display: block;">
+                <div style="display: flex; flex-direction: column; text-align: left; line-height: 1.1;">
+                    <span style="font-size: 26px; font-weight: 800; letter-spacing: -1px; color: var(--text-primary);">KASUME <span style="color: var(--accent-green); font-weight: 700;">GROUP</span></span>
+                    <span style="font-size: 12px; font-weight: 700; letter-spacing: 4px; color: var(--accent-yellow); text-transform: uppercase;">Rental House</span>
                 </div>
             </a>
             <ul class="nav-links">
-                <li><a href="#home" class="active">Beranda</a></li>
-                <li><a href="#features">Fasilitas</a></li>
-                <li><a href="#houses">Properti</a></li>
-                <li><a href="#contact">Kontak</a></li>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#houses">Properties</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <button class="menu-btn" id="mobileMenuBtn">☰</button>
         </div>
@@ -37,11 +39,11 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Hunian <span style="color: var(--accent-yellow);">Eksklusif</span><br>untuk Keluarga Modern</h1>
-                <p>Temukan rumah impian dengan keamanan 24 jam, sistem pintar, dan lingkungan asri layaknya perumahan elit kelas dunia.</p>
+                <h1>Exclusive <span style="color: var(--accent-yellow);">Living</span><br>for Modern Families</h1>
+                <p>Discover your dream property with 24-hour security, smart systems, and lush surroundings akin to world-class elite estates.</p>
                 <div class="hero-buttons">
-                    <a href="#houses" class="btn-primary">Lihat Tipe Rumah</a>
-                    <a href="https://wa.me/6282266006102?text=Halo%20Kasume%20Grup,%20saya%20ingin%20konsultasi%20mengenai%20properti." target="_blank" class="btn-outline">Konsultasi WA</a>
+                    <a href="#houses" class="btn-primary">View Properties</a>
+                    <a href="https://wa.me/6282266006102?text=Hello%20Kasume%20Group,%20I%20would%20like%20to%20consult%20about%20properties." target="_blank" class="btn-outline">WhatsApp Consult</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -50,7 +52,7 @@
                     <div class="icon">✓</div>
                     <div class="info">
                         <h4>100%</h4>
-                        <p>Aman & Terpercaya</p>
+                        <p>Safe & Trusted</p>
                     </div>
                 </div>
             </div>
@@ -61,29 +63,37 @@
     <section id="features" class="features">
         <div class="container">
             <div class="section-header">
-                <h2>Fasilitas <span class="text-accent">Premium</span></h2>
-                <p>Nikmati kemudahan dan kenyamanan tanpa kompromi di lingkungan Kasume.</p>
+                <h2>Premium <span class="text-accent">Features</span></h2>
+                <p>Enjoy uncompromising convenience and comfort in the Kasume environment.</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card">
-                    <div class="feature-icon">🛡️</div>
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
                     <h3>One Gate System</h3>
-                    <p>Keamanan tingkat tinggi dengan satu pintu masuk dan pengawasan CCTV 24/7 di seluruh area perumahan.</p>
+                    <p>High-level security with a single entry point and 24/7 CCTV surveillance throughout the area.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">🌳</div>
-                    <h3>Lingkungan Hijau</h3>
-                    <p>Udara lebih segar dengan pepohonan rindang dan taman bermain anak yang tertata rapi nan asri.</p>
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg>
+                    </div>
+                    <h3>Green Environment</h3>
+                    <p>Fresher air with shady trees and neatly arranged children's playgrounds.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Bebas Banjir</h3>
-                    <p>Lokasi tinggi dengan sistem drainase bawah tanah berstandar modern untuk mencegah genangan air.</p>
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path><path d="M9 14l2 2 4-4"></path></svg>
+                    </div>
+                    <h3>Flood Free</h3>
+                    <p>Elevated location with modern underground drainage systems to prevent waterlogging.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">📍</div>
-                    <h3>Lokasi Strategis</h3>
-                    <p>Dekat dengan pusat perbelanjaan, rumah sakit, dan akses tol utama yang mempermudah mobilitas Anda.</p>
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    </div>
+                    <h3>Strategic Location</h3>
+                    <p>Close to shopping centers, hospitals, and main toll access for your mobility.</p>
                 </div>
             </div>
         </div>
@@ -93,44 +103,47 @@
     <section id="houses" class="houses">
         <div class="container">
             <div class="section-header">
-                <h2>Layanan <span class="text-accent">Properti Kami</span></h2>
-                <p>Solusi properti terbaik dari Kasume Grup, mulai dari hunian siap sewa hingga lahan investasi strategis.</p>
+                <h2>Our Property <span class="text-accent">Services</span></h2>
+                <p>The best property solutions from Kasume Group, from ready-to-rent homes to strategic investment lands.</p>
             </div>
             <div class="houses-grid">
                 <!-- Rumah Disewakan -->
                 <div class="house-card">
-                    <img src="assets/images/rumahsewa.jpg" alt="Rumah Sewa" class="house-img">
+                    <img src="assets/images/rumahsewa.jpg" alt="House for Rent" class="house-img">
                     <div class="house-info">
-                        <h3>Rumah Disewakan</h3>
-                        <p class="house-desc">Hunian nyaman siap huni. Fasilitas lengkap: 2 Kamar Tidur, 1 Kamar Mandi, 1 Dapur, serta Halaman Depan & Halaman Belakang.</p>
-                        <div class="house-price" style="font-size: 16px;">
-                            Ketersediaan: <span style="font-size: 16px; font-weight: 700; color: var(--accent-green);">2 Unit</span>
+                        <h3>House for Rent</h3>
+                        <p class="house-desc">Comfortable ready-to-live home. Complete facilities: 2 Bedrooms (with 2 AC units), 1 Bathroom, 1 Kitchen, plus Front & Back Yards.</p>
+                        <div class="house-price" style="font-size: 18px; margin-bottom: 8px;">
+                            Rp 95.000.000 - 100.000.000
                         </div>
-                        <a href="https://wa.me/6282266006102?text=Halo%20Kasume%20Grup,%20saya%20ingin%20mendapatkan%20info%20lebih%20lanjut%20tentang%20Rumah%20Sewa." target="_blank" class="btn-outline">Info & Harga Sewa</a>
+                        <div style="font-size: 14px; margin-bottom: 24px; color: var(--text-secondary);">
+                            Availability: <span style="font-weight: 700; color: var(--accent-green);">2 Units</span>
+                        </div>
+                        <a href="https://wa.me/6282266006102?text=Hello%20Kasume%20Group,%20I%20would%20like%20more%20info%20about%20the%20House%20for%20Rent." target="_blank" class="btn-outline">Info & Rent Price</a>
                     </div>
                 </div>
                 <!-- Tanah Kosong (Dijual) -->
                 <div class="house-card">
-                    <img src="assets/images/tanahdijual.jpg" alt="Tanah Kosong Dijual" class="house-img">
+                    <img src="assets/images/tanahdijual.jpg" alt="Vacant Land for Sale" class="house-img">
                     <div class="house-info">
-                        <h3>Tanah Kosong (Dijual)</h3>
-                        <p class="house-desc">Lahan kosong strategis yang diperjualbelikan. Sangat cocok untuk investasi jangka panjang atau pembangunan hunian pribadi Anda.</p>
+                        <h3>Vacant Land (For Sale)</h3>
+                        <p class="house-desc">Strategic vacant land for sale. Highly suitable for long-term investment or building your private residence.</p>
                         <div class="house-price" style="font-size: 16px;">
-                            Status: <span style="font-size: 16px; font-weight: 700; color: var(--accent-green);">Diperjualbelikan</span>
+                            Status: <span style="font-size: 16px; font-weight: 700; color: var(--accent-green);">For Sale</span>
                         </div>
-                        <a href="https://wa.me/6282266006102?text=Halo%20Kasume%20Grup,%20saya%20tertarik%20mengetahui%20harga%20Tanah%20Kosong%20yang%20dijual." target="_blank" class="btn-outline">Cek Harga Jual</a>
+                        <a href="https://wa.me/6282266006102?text=Hello%20Kasume%20Group,%20I%20am%20interested%20in%20knowing%20the%20price%20of%20the%20Vacant%20Land%20for%20sale." target="_blank" class="btn-outline">Check Sale Price</a>
                     </div>
                 </div>
                 <!-- Lahan Disewakan -->
                 <div class="house-card">
-                    <img src="assets/images/tanahsewa.jpg" alt="Lahan Disewakan" class="house-img">
+                    <img src="assets/images/tanahsewa.jpg" alt="Land for Rent" class="house-img">
                     <div class="house-info">
-                        <h3>Lahan Disewakan</h3>
-                        <p class="house-desc">Lahan yang siap disewa untuk berbagai keperluan bisnis, seperti area parkir, lahan usaha sementara, maupun pergudangan luar ruang.</p>
+                        <h3>Land for Rent</h3>
+                        <p class="house-desc">Land ready to be rented for various business purposes, such as parking areas, temporary business lots, or outdoor warehousing.</p>
                         <div class="house-price" style="font-size: 16px;">
-                            Status: <span style="font-size: 16px; font-weight: 700; color: var(--accent-green);">Disewakan</span>
+                            Status: <span style="font-size: 16px; font-weight: 700; color: var(--accent-green);">For Rent</span>
                         </div>
-                        <a href="https://wa.me/6282266006102?text=Halo%20Kasume%20Grup,%20saya%20tertarik%20menyewa%20Lahan%20yang%20tersedia." target="_blank" class="btn-outline">Cek Harga Sewa</a>
+                        <a href="https://wa.me/6282266006102?text=Hello%20Kasume%20Group,%20I%20am%20interested%20in%20renting%20the%20available%20Land." target="_blank" class="btn-outline">Check Rent Price</a>
                     </div>
                 </div>
             </div>
@@ -143,42 +156,42 @@
             <div class="footer-grid">
                 <!-- Brand -->
                 <div class="footer-brand">
-                    <a href="#" class="logo" style="display: flex; align-items: center; gap: 16px; margin-bottom: 20px;">
-                        <img src="assets/images/logo.png" alt="Logo Kasume" style="height: 56px; width: auto; display: block;">
-                        <div style="display: flex; flex-direction: column; gap: 2px; text-align: left; line-height: 1;">
-                            <span>Kasume<span class="text-accent">Grup</span></span>
-                            <span style="font-size: 11px; font-weight: 500; letter-spacing: 2px; color: var(--text-secondary); text-transform: uppercase;">Rental House</span>
+                    <a href="#" class="logo" style="display: flex; align-items: center; gap: 16px; margin-bottom: 20px; text-decoration: none;">
+                        <img src="assets/images/logo.png" alt="Kasume Group" style="height: 64px; width: auto; display: block;">
+                        <div style="display: flex; flex-direction: column; text-align: left; line-height: 1.1;">
+                            <span style="font-size: 28px; font-weight: 800; letter-spacing: -1px; color: var(--text-primary);">Kasume <span style="color: var(--accent-green); font-weight: 700;">Group</span></span>
+                            <span style="font-size: 12px; font-weight: 700; letter-spacing: 4px; color: var(--accent-yellow); text-transform: uppercase;">Rental House</span>
                         </div>
                     </a>
-                    <p class="footer-desc">Solusi properti terbaik dari Kasume Grup. Kami menyediakan hunian sewa premium dan lahan investasi strategis dengan fasilitas dan keamanan kelas satu.</p>
+                    <p class="footer-desc">The best property solutions from Kasume Group. We provide premium rental homes and strategic investment lands with first-class facilities and security.</p>
                 </div>
                 
                 <!-- Links -->
                 <div class="footer-links">
-                    <h4>Layanan Kami</h4>
+                    <h4>Our Services</h4>
                     <ul>
-                        <li><a href="#houses">Rumah Disewakan</a></li>
-                        <li><a href="#houses">Tanah Kosong (Jual)</a></li>
-                        <li><a href="#houses">Lahan Disewakan</a></li>
+                        <li><a href="#houses">House for Rent</a></li>
+                        <li><a href="#houses">Vacant Land (Sale)</a></li>
+                        <li><a href="#houses">Land for Rent</a></li>
                     </ul>
                 </div>
 
                 <!-- Contact -->
                 <div class="footer-contact">
-                    <h4>Hubungi Kami</h4>
+                    <h4>Contact Us</h4>
                     <ul>
                         <li><a href="https://wa.me/6282266006102" target="_blank">📱 +62 822-6600-6102</a></li>
                         <li><a href="#">📧 info@kasumegrup.com</a></li>
                         <li><span>📍 Jl. Pariwisata Areguling, Tumpak, Kec. Pujut, Lombok Tengah, NTB</span></li>
                     </ul>
                     <div style="margin-top: 24px; border-radius: 12px; overflow: hidden; height: 150px; border: 1px solid var(--border-light); box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
-                        <iframe src="https://maps.google.com/maps?q=-8.8956849,116.2397437&z=15&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://maps.google.com/maps?q=-8.8936217,116.248525&z=17&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2026 Kasume Group Rental House. Hak Cipta Dilindungi.</p>
+                <p>&copy; 2026 Kasume Group Rental House. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
